@@ -1,0 +1,18 @@
+{
+  "_comment": "Точки старта. pos=[x,y,z], dir=[dx,dy] — направление вперёд. verified=false значит координаты не проверены на вашей версии игры: запустите tools/record_spawn.py и запишите точку. Если карты нет в списке — её нужно один раз откалибровать.",
+  "maps": [
+    {"level": "west_coast_usa", "name": "West Coast USA", "tags": ["mountain", "road", "highway", "city", "coast"], "aliases": ["горн", "серпантин", "шоссе", "трасс", "калифорни", "побережь", "west coast", "дорог"], "flat": false, "road_ai": true,
+     "spawn": {"pos": [-717.121, 101.0, 118.675], "dir": [-0.7071, 0.7071], "source": "пример из документации beamngpy (положение), направление уточнить через record_spawn.py", "verified": false}},
+    {"level": "gridmap_v2", "name": "Grid Map v2", "tags": ["flat", "test", "stunt", "empty"], "aliases": ["полигон", "площадк", "ровн", "grid", "пустая", "каскадёр", "трюк"], "flat": true, "road_ai": false,
+     "spawn": {"pos": [0.0, 0.0, 0.3], "dir": [0.0, 1.0], "source": "ориентировочно, проверить", "verified": false}},
+    {"level": "smallgrid", "name": "Small Grid", "tags": ["flat", "test"], "aliases": ["smallgrid"], "flat": true, "road_ai": false,
+     "spawn": {"pos": [0.0, 0.0, 0.3], "dir": [0.0, 1.0], "source": "ориентировочно, проверить", "verified": false}},
+    {"level": "italy", "name": "Italy", "tags": ["mountain", "road", "city"], "aliases": ["итали"], "flat": false, "road_ai": true, "spawn": null},
+    {"level": "utah", "name": "Utah", "tags": ["desert", "road", "offroad", "mountain"], "aliases": ["юта", "пустын", "utah"], "flat": false, "road_ai": true, "spawn": null},
+    {"level": "east_coast_usa", "name": "East Coast USA", "tags": ["city", "road", "highway"], "aliases": ["восточн", "город", "нью-йорк"], "flat": false, "road_ai": true, "spawn": null},
+    {"level": "industrial", "name": "Industrial", "tags": ["industrial", "flat", "stunt"], "aliases": ["завод", "промзон", "индастриал"], "flat": false, "road_ai": true, "spawn": null},
+    {"level": "johnson_valley", "name": "Johnson Valley", "tags": ["desert", "offroad"], "aliases": ["джонсон", "каньон"], "flat": false, "road_ai": false, "spawn": null},
+    {"level": "automation_test_track", "name": "Automation Test Track", "tags": ["race", "track", "flat"], "aliases": ["трек", "автодром", "гонк"], "flat": false, "road_ai": true, "spawn": null},
+    {"level": "hirochi_raceway", "name": "Hirochi Raceway", "tags": ["race", "track"], "aliases": ["хироч"], "flat": false, "road_ai": true, "spawn": null}
+  ]
+}
