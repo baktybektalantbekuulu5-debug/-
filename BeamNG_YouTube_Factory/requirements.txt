@@ -1,0 +1,12 @@
+# BeamNG YouTube Factory - зависимости (Python 3.11+)
+PySide6>=6.6
+beamngpy>=1.30
+obsws-python>=1.7
+opencv-python>=4.8
+numpy>=1.24
+requests>=2.31
+google-api-python-client>=2.100
+google-auth-oauthlib>=1.1
+google-auth-httplib2>=0.2
+anthropic>=0.30
+pytest>=7.4

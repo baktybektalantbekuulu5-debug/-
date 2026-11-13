@@ -1,0 +1,59 @@
+{
+  "paths": {
+    "beamng_home": "",
+    "beamng_user": "",
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "output_dir": "output"
+  },
+  "beamng": {
+    "host": "127.0.0.1",
+    "port": 25252,
+    "launch": true,
+    "steer_sign": 0,
+    "scene_pre_roll": 2.0,
+    "scene_post_roll": 3.0
+  },
+  "obs": {
+    "enabled": true,
+    "host": "localhost",
+    "port": 4455,
+    "password": "",
+    "scene_name": "",
+    "set_video_settings": false,
+    "start_latency": 0.3
+  },
+  "recorder": {
+    "backend": "auto",
+    "ffmpeg_window_title": "BeamNG.drive",
+    "ffmpeg_audio_device": "",
+    "ffmpeg_encoder": "libx264"
+  },
+  "ai": {
+    "provider": "offline",
+    "anthropic": {"api_key": "", "model": "claude-sonnet-5-5"},
+    "openai": {"api_key": "", "base_url": "https://api.openai.com/v1", "model": "gpt-4o-mini"},
+    "timeout": 90
+  },
+  "production": {
+    "max_scene_attempts": 3,
+    "min_scene_seconds": 6,
+    "keep_raw": true
+  },
+  "editor": {
+    "music_volume": 0.35,
+    "game_volume": 1.0,
+    "sfx_volume": 0.9,
+    "crf": 18,
+    "preset": "medium",
+    "slowmo_factor": 0.4,
+    "motion_sample_fps": 4
+  },
+  "youtube": {
+    "client_secret": "config/client_secret.json",
+    "token": "config/youtube_token.json",
+    "privacy": "private",
+    "category_id": "20",
+    "language": "ru"
+  }
+}
