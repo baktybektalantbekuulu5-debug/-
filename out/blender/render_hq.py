@@ -121,7 +121,10 @@ ls.select_by_collection = True; ls.collection = no_line; ls.collection_negation 
 ls.linestyle = ls.linestyle or bpy.data.linestyles.new('LS')
 ls.linestyle.color = (0.05, 0.05, 0.07); ls.linestyle.thickness = 2.2
 
-for name, ang in [('front', 0), ('three_quarter', -35), ('side', -90), ('back', 180)]:
+VIEWS = [('front', 0), ('three_quarter', -35), ('side', -90), ('back', 180)]
+if __name__ != '__main__':   # импортирован из animate_hq.py: сцена готова, кадры не рендерим
+    VIEWS = []
+for name, ang in VIEWS:
     if ONLY and name not in ONLY:
         continue
     root.rotation_euler = (0, 0, math.radians(ang))
