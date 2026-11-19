@@ -3,3 +3,4 @@ config/settings.toml
 projects/
 tools/ffmpeg/
 *.mp4
+*.egg-info/
