@@ -1,0 +1,5 @@
+.venv/
+config/settings.toml
+projects/
+tools/ffmpeg/
+*.mp4
