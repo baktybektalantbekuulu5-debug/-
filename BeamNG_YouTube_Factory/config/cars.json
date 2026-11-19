@@ -1,0 +1,563 @@
+{
+ "_comment": "model = имя папки машины в content/vehicles BeamNG.drive. aliases — общие слова; brands — реальные марки/модели, которых в BeamNG.drive нет (при их упоминании режиссёр подбирает ближайший аналог и сообщает об этом).",
+ "cars": [
+  {
+   "model": "scintilla",
+   "name": "Civetta Scintilla",
+   "tags": [
+    "supercar",
+    "fast"
+   ],
+   "aliases": [
+    "суперкар",
+    "supercar"
+   ],
+   "brands": [
+    "ламборгини",
+    "lamborghini",
+    "ламба",
+    "феррари",
+    "ferrari",
+    "bugatti",
+    "бугатти",
+    "порше",
+    "porsche",
+    "mclaren",
+    "макларен"
+   ]
+  },
+  {
+   "model": "bolide",
+   "name": "Civetta Bolide",
+   "tags": [
+    "supercar",
+    "fast",
+    "hypercar"
+   ],
+   "aliases": [
+    "гиперкар",
+    "bolide",
+    "болид"
+   ],
+   "brands": []
+  },
+  {
+   "model": "vivace",
+   "name": "Cherrier Vivace",
+   "tags": [
+    "hatch",
+    "sport"
+   ],
+   "aliases": [
+    "vivace",
+    "вивáче",
+    "хэтчбек"
+   ],
+   "brands": []
+  },
+  {
+   "model": "sunburst",
+   "name": "Hirochi Sunburst",
+   "tags": [
+    "sedan",
+    "sport"
+   ],
+   "aliases": [
+    "седан",
+    "sunburst",
+    "санберст"
+   ],
+   "brands": [
+    "bmw",
+    "бмв",
+    "субару",
+    "subaru"
+   ]
+  },
+  {
+   "model": "etk800",
+   "name": "ETK 800 Series",
+   "tags": [
+    "sedan",
+    "wagon",
+    "sport"
+   ],
+   "aliases": [
+    "etk",
+    "etk800",
+    "универсал"
+   ],
+   "brands": [
+    "мерседес",
+    "mercedes",
+    "audi",
+    "ауди"
+   ]
+  },
+  {
+   "model": "etki",
+   "name": "ETK I-Series",
+   "tags": [
+    "coupe"
+   ],
+   "aliases": [
+    "etki",
+    "купе"
+   ],
+   "brands": []
+  },
+  {
+   "model": "covet",
+   "name": "Ibishu Covet",
+   "tags": [
+    "hatch",
+    "small"
+   ],
+   "aliases": [
+    "covet",
+    "ковет",
+    "малолитражка"
+   ],
+   "brands": [
+    "жигули",
+    "лада",
+    "lada"
+   ]
+  },
+  {
+   "model": "miramar",
+   "name": "Ibishu Miramar",
+   "tags": [
+    "sedan",
+    "old"
+   ],
+   "aliases": [
+    "miramar",
+    "мирамар"
+   ],
+   "brands": [
+    "тойота",
+    "toyota"
+   ]
+  },
+  {
+   "model": "pessima",
+   "name": "Ibishu Pessima",
+   "tags": [
+    "sedan",
+    "old"
+   ],
+   "aliases": [
+    "pessima",
+    "пессима"
+   ],
+   "brands": []
+  },
+  {
+   "model": "bx",
+   "name": "Ibishu BX",
+   "tags": [
+    "small",
+    "old"
+   ],
+   "aliases": [
+    "bx"
+   ],
+   "brands": []
+  },
+  {
+   "model": "moonhawk",
+   "name": "Bruckell Moonhawk",
+   "tags": [
+    "muscle",
+    "coupe"
+   ],
+   "aliases": [
+    "moonhawk",
+    "мускул",
+    "мускулкар",
+    "маслкар"
+   ],
+   "brands": [
+    "mustang",
+    "мустанг",
+    "camaro",
+    "камаро",
+    "dodge",
+    "додж",
+    "charger",
+    "челленджер"
+   ]
+  },
+  {
+   "model": "legran",
+   "name": "Bruckell Legran",
+   "tags": [
+    "sedan",
+    "wagon"
+   ],
+   "aliases": [
+    "legran",
+    "легран"
+   ],
+   "brands": [
+    "волга"
+   ]
+  },
+  {
+   "model": "bluebuck",
+   "name": "Gavril Bluebuck",
+   "tags": [
+    "muscle",
+    "old"
+   ],
+   "aliases": [
+    "bluebuck",
+    "блюбак",
+    "ретро"
+   ],
+   "brands": []
+  },
+  {
+   "model": "barstow",
+   "name": "Gavril Barstow",
+   "tags": [
+    "muscle",
+    "old"
+   ],
+   "aliases": [
+    "barstow",
+    "барстоу"
+   ],
+   "brands": []
+  },
+  {
+   "model": "roamer",
+   "name": "Gavril Roamer",
+   "tags": [
+    "suv",
+    "offroad"
+   ],
+   "aliases": [
+    "roamer",
+    "роумер",
+    "джип",
+    "внедорожник",
+    "suv"
+   ],
+   "brands": [
+    "jeep",
+    "land cruiser",
+    "крузак",
+    "гелик"
+   ]
+  },
+  {
+   "model": "grandmarshal",
+   "name": "Gavril Grand Marshal",
+   "tags": [
+    "suv",
+    "police"
+   ],
+   "aliases": [
+    "grand marshal",
+    "полиция",
+    "полицейская",
+    "police",
+    "полицейский"
+   ],
+   "brands": []
+  },
+  {
+   "model": "pickup",
+   "name": "Gavril D-Series",
+   "tags": [
+    "truck",
+    "pickup",
+    "offroad"
+   ],
+   "aliases": [
+    "пикап",
+    "pickup",
+    "d-series",
+    "d series",
+    "пикапе"
+   ],
+   "brands": []
+  },
+  {
+   "model": "bastion",
+   "name": "Bruckell Bastion",
+   "tags": [
+    "sedan",
+    "luxury"
+   ],
+   "aliases": [
+    "bastion",
+    "бастион"
+   ],
+   "brands": []
+  },
+  {
+   "model": "lansdale",
+   "name": "Hirochi Lansdale",
+   "tags": [
+    "van"
+   ],
+   "aliases": [
+    "lansdale"
+   ],
+   "brands": []
+  },
+  {
+   "model": "van",
+   "name": "H-Series Van",
+   "tags": [
+    "van"
+   ],
+   "aliases": [
+    "фургон",
+    "van"
+   ],
+   "brands": [
+    "газель"
+   ]
+  },
+  {
+   "model": "semi",
+   "name": "T-Series Semi",
+   "tags": [
+    "truck",
+    "heavy"
+   ],
+   "aliases": [
+    "фура",
+    "semi",
+    "тягач",
+    "грузовик"
+   ],
+   "brands": []
+  },
+  {
+   "model": "midtruck",
+   "name": "Gavril T-Series",
+   "tags": [
+    "truck",
+    "heavy"
+   ],
+   "aliases": [
+    "midtruck",
+    "грузовичок"
+   ],
+   "brands": []
+  },
+  {
+   "model": "citybus",
+   "name": "Wentward DT40L (City Bus)",
+   "tags": [
+    "bus",
+    "heavy",
+    "obstacle"
+   ],
+   "aliases": [
+    "автобус",
+    "bus",
+    "автобусом",
+    "автобуса",
+    "автобусы",
+    "автобусов",
+    "citybus"
+   ],
+   "brands": []
+  },
+  {
+   "model": "wendover",
+   "name": "Wendover",
+   "tags": [
+    "sedan"
+   ],
+   "aliases": [
+    "wendover"
+   ],
+   "brands": []
+  },
+  {
+   "model": "fullsize",
+   "name": "Gavril Fullsize",
+   "tags": [
+    "sedan",
+    "old"
+   ],
+   "aliases": [
+    "fullsize"
+   ],
+   "brands": []
+  },
+  {
+   "model": "sbr",
+   "name": "Civetta SBR4",
+   "tags": [
+    "sport",
+    "supercar"
+   ],
+   "aliases": [
+    "sbr",
+    "sbr4"
+   ],
+   "brands": []
+  },
+  {
+   "model": "racetruck",
+   "name": "Racetruck",
+   "tags": [
+    "race",
+    "truck"
+   ],
+   "aliases": [
+    "racetruck",
+    "гоночный грузовик"
+   ],
+   "brands": []
+  },
+  {
+   "model": "rockbouncer",
+   "name": "Rock Bouncer",
+   "tags": [
+    "offroad"
+   ],
+   "aliases": [
+    "rockbouncer",
+    "рокбаунсер"
+   ],
+   "brands": []
+  }
+ ],
+ "colors": {
+  "красн": [
+   0.8,
+   0.02,
+   0.02,
+   1.0
+  ],
+  "red": [
+   0.8,
+   0.02,
+   0.02,
+   1.0
+  ],
+  "син": [
+   0.05,
+   0.1,
+   0.8,
+   1.0
+  ],
+  "blue": [
+   0.05,
+   0.1,
+   0.8,
+   1.0
+  ],
+  "голуб": [
+   0.3,
+   0.6,
+   0.95,
+   1.0
+  ],
+  "зелен": [
+   0.05,
+   0.6,
+   0.1,
+   1.0
+  ],
+  "green": [
+   0.05,
+   0.6,
+   0.1,
+   1.0
+  ],
+  "желт": [
+   0.95,
+   0.8,
+   0.05,
+   1.0
+  ],
+  "yellow": [
+   0.95,
+   0.8,
+   0.05,
+   1.0
+  ],
+  "оранж": [
+   0.95,
+   0.4,
+   0.02,
+   1.0
+  ],
+  "orange": [
+   0.95,
+   0.4,
+   0.02,
+   1.0
+  ],
+  "черн": [
+   0.02,
+   0.02,
+   0.02,
+   1.0
+  ],
+  "black": [
+   0.02,
+   0.02,
+   0.02,
+   1.0
+  ],
+  "бел": [
+   0.95,
+   0.95,
+   0.95,
+   1.0
+  ],
+  "white": [
+   0.95,
+   0.95,
+   0.95,
+   1.0
+  ],
+  "сер": [
+   0.5,
+   0.5,
+   0.52,
+   1.0
+  ],
+  "silver": [
+   0.7,
+   0.7,
+   0.72,
+   1.0
+  ],
+  "фиолет": [
+   0.45,
+   0.1,
+   0.7,
+   1.0
+  ],
+  "purple": [
+   0.45,
+   0.1,
+   0.7,
+   1.0
+  ],
+  "розов": [
+   0.95,
+   0.4,
+   0.7,
+   1.0
+  ],
+  "золот": [
+   0.85,
+   0.65,
+   0.12,
+   1.0
+  ]
+ }
+}
